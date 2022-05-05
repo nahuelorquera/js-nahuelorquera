@@ -1,22 +1,3 @@
-/* let usuarioR = prompt("Elija su nombre de usuario");
-let contraseniaR = prompt("Elija su contraseña");
-
-let usuarioI = prompt("Ingrese su usuario");
-let contraseniaI = prompt("Ingrese su contraseña");
-
-
-
-
-while (contraseniaR != contraseniaI){
-    console.log("Contraseña incorrecta");
-    let contraseniaI = prompt("Ingrese nuevamente su contraseña");
-    if(contraseniaR == contraseniaI){
-        alert("Bienvenido");
-        break;
-    }
-}  */
-
-
 let monto = parseInt(prompt("Ingrese monto a pagar"));
 let cuotas = prompt ("Ingrese en cuantas cuotas (1,2,6,12)");
 

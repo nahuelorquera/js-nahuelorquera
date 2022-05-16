@@ -40,7 +40,7 @@ const catalogo = productos.concat(nuevosProductos);
 
 let productoSeleccionado = parseInt(prompt("¿Que producto desea comprar?\n0_TV\n1_Aire acondicionado\n2_Plancha\n3_Microondas\n4_Calefactor\n5_Teclado Gamer\n6_PC"));
 
-let cuotas = parseInt(prompt("¿En cuantas cuotas desea pagarlo?"));
+let cuotas = parseInt(prompt("¿En cuantas cuotas desea pagarlo? (1 - 2 - 6 - 12)"));
 
 calcularCuotas(catalogo[productoSeleccionado].monto, cuotas);
 
@@ -60,9 +60,9 @@ function calcularCuotas(monto, cuotas) {
 
 
 
-let productoSeleccionado2 = parseInt(prompt("¿Que otro producto desea comprar?\n0_TV\n1_Aire acondicionado\n2_Plancha\n3_Microondas\n4_Calefactor\n5_Teclado Gamer\n6_PC"));
+let productoSeleccionado2 = parseInt(prompt("¿Que otro producto desea comprar?\n0_TV\n1-Aire acondicionado\n2_Plancha\n3_Microondas\n4_Calefactor\n5_Teclado Gamer\n6_PC"));
 
-let cuotas2 = parseInt(prompt("¿En cuantas cuotas desea pagarlo?"));
+let cuotas2 = parseInt(prompt("¿En cuantas cuotas desea pagarlo? (1 - 2 - 6 - 12)"));
 
 calcularCuotas(catalogo[productoSeleccionado2].monto, cuotas2);
 

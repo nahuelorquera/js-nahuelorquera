@@ -4,11 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Js - Nahuel Orquera</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1 id="title"> Blue Market</h1>
+        <div class="form container">
+            <h2>Productos</h2>
+            <p><select id="Productos">
+                <option value="30000">TV</option>
+                <option value="22000">Aire Acondicionado</option>
+                <option value="7000">Plancha</option>
+                <option value="12000">Microondas</option>
+                <option value="17000">Calefactor</option>
+                <option value="8000">Teclado Gamer</option>
+                <option value="120000">PC</option>
+            </select></p>
+            <h3>Cuotas</h3>
+            <p><select id="cuotas">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="6">6</option>
+                <option value="12">12</option>
+            </select></p>
+
+            <button type="button" id="button" class="btn btn-success" value="calcularCuotas">Calcular monto</button>
+            <p class="total"><input type="text" id="resultado"></p>
+              
+        </div>
+        
+        <div class="container d-flex">
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start list-group-item-warning">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">TV</div>
+                    $30000
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start list-group-item-warning">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Aire Acondicionado</div>
+                    $22000
+                  </div>
+                <li class="list-group-item d-flex justify-content-between align-items-start list-group-item-warning">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Plancha</div>
+                    $7000
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start list-group-item-warning">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Microondas</div>
+                      $12000
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start list-group-item-warning">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Calefactor</div>
+                      $17000
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start list-group-item-warning">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">Teclado Gamer</div>
+                      $8000
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start list-group-item-warning">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold">PC</div>
+                      $120000
+                    </div>
+                  </li>
+              </ol>
+        </div>
+
+    </header>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="js/trabajo.js"></script>
 </html>
